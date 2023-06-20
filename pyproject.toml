@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "time-punch"
+version = "0.1.0"
+description = ""
+authors = ["Michael Lerner <michael.lerner@ionix.io>"]
+readme = "README.md"
+packages = [{include = "time_punch"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+playwright = "^1.35.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
